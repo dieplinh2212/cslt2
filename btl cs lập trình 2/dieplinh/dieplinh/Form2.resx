@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="mnuDanhmuc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 26</value>
+  </data>
+  <data name="mnuDanhmuc.Text" xml:space="preserve">
+    <value>Danh mục</value>
+  </data>
+  <data name="mnuHoso.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 26</value>
+  </data>
+  <data name="mnuHoso.Text" xml:space="preserve">
+    <value>Hồ sơ</value>
+  </data>
+  <data name="mnuBaocao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 26</value>
+  </data>
+  <data name="mnuBaocao.Text" xml:space="preserve">
+    <value>Báo cáo</value>
+  </data>
+  <data name="mnuTimkiem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 26</value>
+  </data>
+  <data name="mnuTimkiem.Text" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="mnuThoat.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 26</value>
+  </data>
+  <data name="mnuThoat.Text" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>783, 28</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="mnuThuthu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="mnuThuthu.Text" xml:space="preserve">
+    <value>Thủ Thư</value>
+  </data>
+  <data name="mnuSach.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="mnuSach.Text" xml:space="preserve">
+    <value>Sách</value>
+  </data>
+  <data name="mnuThemuon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="mnuThemuon.Text" xml:space="preserve">
+    <value>Thẻ mượn</value>
+  </data>
+  <data name="mnuNXB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="mnuNXB.Text" xml:space="preserve">
+    <value>NXB</value>
+  </data>
+  <data name="mnuHosomuon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="mnuHosomuon.Text" xml:space="preserve">
+    <value>Hồ sơ mượn</value>
+  </data>
+  <data name="mnuHosotra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="mnuHosotra.Text" xml:space="preserve">
+    <value>Hồ sơ trả</value>
+  </data>
+  <data name="mnuTongTienThuDuoc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 26</value>
+  </data>
+  <data name="mnuTongTienThuDuoc.Text" xml:space="preserve">
+    <value>Tổng tiền thu được theo tháng, quý, năm</value>
+  </data>
+  <data name="mnuDanhsachchuatra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 26</value>
+  </data>
+  <data name="mnuDanhsachchuatra.Text" xml:space="preserve">
+    <value>Danh sách các sách đang được mượn chưa trả</value>
+  </data>
+  <data name="mnuDanhsachtheothemuon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>396, 26</value>
+  </data>
+  <data name="mnuDanhsachtheothemuon.Text" xml:space="preserve">
+    <value>Danh sách hồ sơ mượn theo thẻ mượn</value>
+  </data>
+  <data name="mnuTimsach.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="mnuTimsach.Text" xml:space="preserve">
+    <value>Sách</value>
+  </data>
+  <data name="mnuTimthuthu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="mnuTimthuthu.Text" xml:space="preserve">
+    <value>Thủ thư</value>
+  </data>
+  <data name="chuongtrinhquanly.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chuongtrinhquanly.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Barber Complete, 22.2pt, style=Bold</value>
+  </data>
+  <data name="chuongtrinhquanly.Location" type="System.Drawing.Point, System.Drawing">
+    <value>84, 184</value>
+  </data>
+  <data name="chuongtrinhquanly.Size" type="System.Drawing.Size, System.Drawing">
+    <value>603, 46</value>
+  </data>
+  <data name="chuongtrinhquanly.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chuongtrinhquanly.Text" xml:space="preserve">
+    <value>Chương trình quản lý</value>
+  </data>
+  <data name="&gt;&gt;chuongtrinhquanly.Name" xml:space="preserve">
+    <value>chuongtrinhquanly</value>
+  </data>
+  <data name="&gt;&gt;chuongtrinhquanly.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chuongtrinhquanly.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chuongtrinhquanly.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Hieusach.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="Hieusach.Font" type="System.Drawing.Font, System.Drawing">
+    <value>UVF Quickpen, 25.8pt, style=Bold, Italic</value>
+  </data>
+  <data name="Hieusach.Location" type="System.Drawing.Point, System.Drawing">
+    <value>483, 233</value>
+  </data>
+  <data name="Hieusach.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 85</value>
+  </data>
+  <data name="Hieusach.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="Hieusach.Text" xml:space="preserve">
+    <value>Thư viện</value>
+  </data>
+  <data name="&gt;&gt;Hieusach.Name" xml:space="preserve">
+    <value>Hieusach</value>
+  </data>
+  <data name="&gt;&gt;Hieusach.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Hieusach.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Hieusach.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>783, 478</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Symbol, 8.25pt</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Quản lý thư viện</value>
+  </data>
+  <data name="&gt;&gt;mnuDanhmuc.Name" xml:space="preserve">
+    <value>mnuDanhmuc</value>
+  </data>
+  <data name="&gt;&gt;mnuDanhmuc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuThuthu.Name" xml:space="preserve">
+    <value>mnuThuthu</value>
+  </data>
+  <data name="&gt;&gt;mnuThuthu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuSach.Name" xml:space="preserve">
+    <value>mnuSach</value>
+  </data>
+  <data name="&gt;&gt;mnuSach.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuThemuon.Name" xml:space="preserve">
+    <value>mnuThemuon</value>
+  </data>
+  <data name="&gt;&gt;mnuThemuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuNXB.Name" xml:space="preserve">
+    <value>mnuNXB</value>
+  </data>
+  <data name="&gt;&gt;mnuNXB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuHoso.Name" xml:space="preserve">
+    <value>mnuHoso</value>
+  </data>
+  <data name="&gt;&gt;mnuHoso.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuHosomuon.Name" xml:space="preserve">
+    <value>mnuHosomuon</value>
+  </data>
+  <data name="&gt;&gt;mnuHosomuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuHosotra.Name" xml:space="preserve">
+    <value>mnuHosotra</value>
+  </data>
+  <data name="&gt;&gt;mnuHosotra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuBaocao.Name" xml:space="preserve">
+    <value>mnuBaocao</value>
+  </data>
+  <data name="&gt;&gt;mnuBaocao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuTongTienThuDuoc.Name" xml:space="preserve">
+    <value>mnuTongTienThuDuoc</value>
+  </data>
+  <data name="&gt;&gt;mnuTongTienThuDuoc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuDanhsachchuatra.Name" xml:space="preserve">
+    <value>mnuDanhsachchuatra</value>
+  </data>
+  <data name="&gt;&gt;mnuDanhsachchuatra.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuDanhsachtheothemuon.Name" xml:space="preserve">
+    <value>mnuDanhsachtheothemuon</value>
+  </data>
+  <data name="&gt;&gt;mnuDanhsachtheothemuon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuTimkiem.Name" xml:space="preserve">
+    <value>mnuTimkiem</value>
+  </data>
+  <data name="&gt;&gt;mnuTimkiem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuTimsach.Name" xml:space="preserve">
+    <value>mnuTimsach</value>
+  </data>
+  <data name="&gt;&gt;mnuTimsach.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuTimthuthu.Name" xml:space="preserve">
+    <value>mnuTimthuthu</value>
+  </data>
+  <data name="&gt;&gt;mnuTimthuthu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mnuThoat.Name" xml:space="preserve">
+    <value>mnuThoat</value>
+  </data>
+  <data name="&gt;&gt;mnuThoat.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>formMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
